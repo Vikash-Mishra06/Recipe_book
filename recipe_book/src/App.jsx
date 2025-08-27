@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className='bg-gray-800 text-white font-thin w-screen h-screen py-5 px-[10%]'>
+    <div className='w-full min-h-screen bg-gray-800 text-white font-thin py-5 px-[10%]'>
       <Navbar />
       <Mainroutes />
     </div>
