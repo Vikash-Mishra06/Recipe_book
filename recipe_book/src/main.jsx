@@ -4,7 +4,7 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import RecipeContext from './context/RecipeContext.jsx'
-
+import 'remixicon/fonts/remixicon.css'
 
 createRoot(document.getElementById('root')).render(
   <RecipeContext>

@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <div>
       <button onClick={getproduct}>Get Products</button>
+      
     </div>
   )
 }
