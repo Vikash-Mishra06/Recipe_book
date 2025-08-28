@@ -2,8 +2,9 @@ import React, { useContext } from "react";
 import { FavouriteContext } from "../context/FavouriteContext";
 import RecipeCard from "../components/RecipeCard";
 
-const Favourite = () => {
+const Favourite = ({ recipe }) => {
   const { favourites } = useContext(FavouriteContext);
+  
 
   return (
     <div className="p-5">
